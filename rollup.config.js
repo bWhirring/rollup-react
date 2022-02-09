@@ -62,11 +62,13 @@ function createRollupConfig(file, name) {
       {
         file: name === all ? packageJson.main : `lib/${name}/index.js`,
         format: "cjs",
-        name: "react-ts-lib"
+        name: "react-components",
+        exports: "auto"
       },
       {
         file: name === all ? packageJson.module : `es/${name}/index.js`,
-        format: "esm"
+        format: "esm",
+        exports: "auto"
       }
     ],
     external: ["react"],
