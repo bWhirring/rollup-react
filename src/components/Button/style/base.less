@@ -1,0 +1,14 @@
+@color: blue;
+
+.name {
+  color: @color;
+}
+
+@var: blue;
+
+#page {
+  @var: white;
+  #header {
+    color: @var; // white
+  }
+}
