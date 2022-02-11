@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sources":["../../components/Alert/Alert.tsx"],"sourcesContent":["import React from 'react';\n\nexport default function Alert({ age }: { age: string }) {\n  return <>Alert {age}</>;\n}\n"],"names":[],"mappings":";;SAEwB,KAAK,CAAC,EAAwB;QAAtB,GAAG,SAAA;IACjC,OAAO;;QAAS,GAAG,CAAI,CAAC;AAC1B;;;;"}
